@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>오로라 여행 : 별의 별 여행</title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.clear{
+			clear: both;
+		}
+		#page{
+			background-color: black;
+			padding: 30px 50px;
+		}
+		body{
+			background-image: url(./img/star.png);
+			background-repeat: repeat-y;
+			background-position: center top;
+		}
+		header{
+			width: 1000px;
+			height: 100px;
+			margin-top: 10px;
+			border: solid 2px #cccccc;
+			color: white;
+		}
+		li{
+			list-style-type: none;
+		}
+		a{
+			color: white;
+		}
+		a:hover{
+			color: #aaaaaa;
+		}
+		#logo{
+			margin: 20px;
+			float: left;
+		}
+		#top{
+			float: right;
+			margin: 30px 20px 0 0;
+		}
+		.dropdown{
+			display: inline-block;
+		}
+		.dropdownContents{
+			display: none;
+			font-size: small;
+			background-color: #000042;
+			color: white;
+			position: absolute; /*옆으로*/
+			width: 200px;
+		}
+		.dropdown:hover .dropdownContents{
+			display: block;
+		}
+		nav{
+			margin-top: 10px;
+			padding: 20px;
+			border: solid 1px #cccccc;
+			color: white;
+		}
+		nav li{
+			float: left;
+			margin: 20px 50px;
+		}
+		section{
+			float: left;
+			width: 845px;
+			margin: 10px 0px;
+			border: solid 1px #cccccc;
+			background-color: white;
+			padding-top: 5px;
+		}
+		aside {
+			float: left;
+			margin-left: 10px;
+			margin-top: 10px;
+			border: solid 1px #cccccc;
+			padding-left: 25px;
+			color: white;
+		}
+		aside li{
+			padding: 10px;
+		}
+		#picture{
+			float: left;
+			border: solid 1px #cccccc;
+			padding: 10px;
+			margin-right: 30px;
+			text-align: center;
+		}
+		#square1{
+			float: left;
+			width: 100px;
+			height: 100px;
+			background-image: url(./img/small1.png);
+			transition: width 1s, height 1s, transition 1s;
+		}
+		#square1:hover{
+			width: 256px;
+			height: 256px;
+			transform: rotate(360deg);
+		}
+		#square2{
+			float: left;
+			width: 100px;
+			height: 100px;
+			background-image: url(./img/small2.png);
+			transition: width 1s, height 1s, transition 1s;
+		}
+		#square2:hover{
+			width: 256px;
+			height: 256px;
+			transform: rotate(360deg);
+		}
+		#square3{
+			float: left;
+			width: 100px;
+			height: 100px;
+			background-image: url(./img/small3.png);
+			transition: width 1s, height 1s, transition 1s;
+		}
+		#square3:hover{
+			width: 256px;
+			height: 256px;
+			transform: rotate(360deg);
+		}
+		#square4{
+			float: left;
+			width: 100px;
+			height: 100px;
+			background-image: url(./img/small4.png);
+			transition: width 1s, height 1s, transition 1s;
+		}
+		#square4:hover{
+			width: 256px;
+			height: 256px;
+			transform: rotate(360deg);
+		}
+		#aurora{
+			float: left;
+			width: 100px;
+			height: 100px;
+			background-color: black;
+		}
+		#aurora-text{
+			position: absolute;
+			padding: 35px 8px;
+			color: white;
+		}
+		footer{
+			width: 1000px;
+			height: 180px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			border: solid 1px #cccccc;
+			color: white;
+		}
+		#address{
+			float: left;
+			margin: 30px 0 0 20px;
+		}
+		#customer{
+			float: left;
+			margin: 30px 0 0 20px;
+		}
+		#page{
+			width: 1000px;
+			margin: auto; /*마진을 자동으로 해준다*/
+			//border: solid 1px red;
+		}
+	</style>
+</head>
+<body>
+	<div id="page">
+
+
+<header>
+	<div id="logo">
+		<a href="./index.html"><h3>★별보러 떠나요★</h3></a>
+	</div>
+	<div id="top">
+		<a href="./one.html">로그인</a> | 회원가입 | 마이페이지 | 고객센터
+</header>
+
+
+
+<div class="clear"></div><!--float 속성 해제 -->
+<nav>
+		<div class="dropdown">
+			<ul>
+			<h4>국내 섬 여행</h4>
+				<div class="dropdownContents">
+					<li>1004섬 신안</li>
+					<li>제주도</li>
+					<li>울릉도/독도</li>
+				</div>
+			</ul>
+		</div>
+		<div class="dropdown">
+			<ul> |</ul>
+		</div>
+
+		<div class="dropdown">
+			<ul>
+			<h4>해외 여행</h4>
+				<div class="dropdownContents">
+					<li>아시아</li>
+					<li>유럽</li>
+					<li>북아메리카</li>
+				</div>
+			</ul>
+		</div>
+		<div class="dropdown">
+			<ul> |</ul>
+		</div>
+
+		<div class="dropdown">
+			<ul>
+			<h4><a href="./two.html">오로라 여행</a></h4>
+				<div class="dropdownContents">
+					<li>아이슬란드</li>
+					<li>캐나다</li>
+				</div>
+			</ul>
+		</div>
+		<div class="dropdown">
+			<ul> |</ul>
+		</div>
+
+		<div class="dropdown">
+			<ul>
+			<h4><a href="https://www.nasa.gov/">우주정거장 여행</a></h4>
+				<div class="dropdownContents">
+					<li><a href="https://www.nasa.gov/">NASA 홈페이지</a></li>
+					<li>하루 숙박비</li>
+					<li>4,150만원</li>
+				</div>
+			</ul>
+		</div>
+</nav>
+
+<nav id="picture">
+	<div id="square1"></div>
+</nav>
+<nav id="picture">
+	<div id="square2"></div>
+</nav>
+<nav id="picture">
+	<div id="square3"></div>
+</nav>
+<nav id="picture">
+	<div id="square4"></div>
+</nav>
+<nav id="picture">
+	<a href="./img/aurora.png"><div id="aurora-text">오로라 사진</div></a>
+	<div id="aurora"></div>
+</nav>
+
+<div class="clear"></div><!--float 속성 해제 -->
+<section>
+	<a href="http://www.hanatour.com/asp/booking/productPackage/pk-11001.asp?pkg_mst_code=HCP280&tour_scheduled_year=2019&tour_scheduled_month=11"><img src="./img/one.png"></a>
+	<a href="http://www.hanatour.com/asp/booking/productPackage/pk-11001.asp?pkg_mst_code=HCA240&tour_scheduled_year=2019&tour_scheduled_month=08"><img src="./img/two.png"></a>
+
+</section>
+
+
+
+<aside>
+	<ul>
+		<a href="./three.html"><li>국내 천문대</li></a>
+		<li>국내 렌터카</li>
+		<li>해외 천문대</li>
+		<li>해외 렌터카</li>
+		<a href="./four.html"><li>금주의 추천!</li></a>	
+	</ul>
+</aside>
+
+
+
+<div class="clear"></div><!--float 속성 해제 -->
+<footer>
+	<div id="address">
+		출처 : NASA, 하나투어, google 이미지<br>
+		(주)별보러떠나요 | 대표 : 박별이 | 주소 : 경기도 부천시<br>
+		대표전화 : 0000-0000 | FAX | 000-0000-0000 | 이메일 : master@startuor.com
+	</div>
+	<div id="customer">
+		사업자등록번호 000-00-00000 | 관광사업자등록증번호 제0000-00000000호<br>
+		통신판매업신고번호 제0000-경기부천-0000
+	</div>
+</footer>
+
+
+</div>
+</body>
+</html>

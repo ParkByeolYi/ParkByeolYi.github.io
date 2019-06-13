@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>국내 천문대 : 별의 별 여행</title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.clear{
+			clear: both;
+		}
+		#page{
+			background-color: black;
+			padding: 30px 50px;
+		}
+		body{
+			background-image: url(./img/star.png);
+			background-repeat: repeat-y;
+			background-position: center top;
+		}
+		header{
+			width: 1000px;
+			height: 100px;
+			margin-top: 10px;
+			border: solid 2px #cccccc;
+			color: white;
+		}
+		li{
+			list-style-type: none;
+		}
+		a{
+			color: white;
+		}
+		a:hover{
+			color: #aaaaaa;
+		}
+		#logo{
+			margin: 20px;
+			float: left;
+		}
+		#top{
+			float: right;
+			margin: 30px 20px 0 0;
+		}
+		.dropdown{
+			display: inline-block;
+		}
+		.dropdownContents{
+			display: none;
+			font-size: small;
+			background-color: #000042;
+			color: white;
+			position: absolute; /*옆으로*/
+			width: 200px;
+		}
+		.dropdown:hover .dropdownContents{
+			display: block;
+		}
+		nav{
+			margin-top: 10px;
+			padding: 20px;
+			border: solid 1px #cccccc;
+			color: white;
+		}
+		nav li{
+			float: left;
+			margin: 20px 50px;
+		}
+		section{
+			float: left;
+			margin-top: 10px;
+			border: solid 1px #cccccc;
+			color: white;
+			background-color: #00006F;
+		}
+		.name{
+			margin: 20px 10px;
+		}
+		.watching{
+			width: 402.5px;
+			margin: 0px 5px 10px 10px;
+			border: solid 1px #cccccc;
+		}
+		.check-point{
+			width: 800px;
+			padding: 0px 10px;
+		}
+		hr{
+			margin: 20px 0px;
+			border: dashed 2px #cccccc;
+		}
+		aside {
+			float: left;
+			margin-left: 10px;
+			margin-top: 10px;
+			border: solid 1px #cccccc;
+			padding-left: 25px;
+			color: white;
+		}
+		aside li{
+			padding: 10px;
+		}
+		footer{
+			width: 1000px;
+			height: 180px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			border: solid 1px #cccccc;
+			color: white;
+		}
+		#address{
+			float: left;
+			margin: 30px 0 0 20px;
+		}
+		#customer{
+			float: left;
+			margin: 30px 0 0 20px;
+		}
+		#page{
+			width: 1000px;
+			margin: auto; /*마진을 자동으로 해준다*/
+			//border: solid 1px red;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="page">
+
+
+
+<header>
+	<div id="logo">
+		<a href="./index.html"><h3>★별보러 떠나요★</h3></a>
+	</div>
+	<div id="top">
+		<a href="./one.html">로그인</a> | 회원가입 | 마이페이지 | 고객센터
+</header>
+
+
+
+<div class="clear"></div><!--float 속성 해제 -->
+<nav>
+		<div class="dropdown">
+			<ul>
+			<h4>국내 섬 여행</h4>
+				<div class="dropdownContents">
+					<li>1004섬 신안</li>
+					<li>제주도</li>
+					<li>울릉도/독도</li>
+				</div>
+			</ul>
+		</div>
+		<div class="dropdown">
+			<ul> |</ul>
+		</div>
+
+		<div class="dropdown">
+			<ul>
+			<h4>해외 여행</h4>
+				<div class="dropdownContents">
+					<li>아시아</li>
+					<li>유럽</li>
+					<li>북아메리카</li>
+				</div>
+			</ul>
+		</div>
+		<div class="dropdown">
+			<ul> |</ul>
+		</div>
+
+		<div class="dropdown">
+			<ul>
+			<h4><a href="./two.html">오로라 여행</a></h4>
+				<div class="dropdownContents">
+					<li>아이슬란드</li>
+					<li>캐나다</li>
+				</div>
+			</ul>
+		</div>
+		<div class="dropdown">
+			<ul> |</ul>
+		</div>
+
+		<div class="dropdown">
+			<ul>
+			<h4><a href="https://www.nasa.gov/">우주정거장 여행</a></h4>
+				<div class="dropdownContents">
+					<li><a href="https://www.nasa.gov/">NASA 홈페이지</a></li>
+					<li>하루 숙박비</li>
+					<li>4,150만원</li>
+				</div>
+			</ul>
+		</div>
+</nav>
+
+
+
+<div class="clear"></div><!--float 속성 해제 -->
+<section>
+	<div class="name"><h3>1. 영월 별마로 천문대</h3></div>
+	<img src="./img/watching1.png" class="watching">
+	<img src="./img/watching2.png" class="watching">
+	<div class="check-point">
+		<h3>체크 포인트!</h3>
+		<input type="checkbox" id="a"><label for="a">봉래산 정상, 해발 약 800m</label><p>
+		<input type="checkbox" id="b"><label for="b">시민 천문대 중에는 가장 큰 천체 망원경</label><p>
+		<input type="checkbox" id="c"><label for="c">1년 중 가장 많은 날 동안 관측 가능</label><p>
+		<input type="checkbox" id="d"><label for="d">100% 사전예약제로 운영, 저녁 시간대 미리 예매</label><p>
+		<input type="checkbox" id="e"><label for="e">이용료 : 7000원 (성인 기준)</label><p>
+		<input type="checkbox" id="f"><label for="f">이용 시간 : 하절기 15시-23시, 동절기 14시-22시</label><p>
+		<input type="checkbox" id="g"><label for="g">근처 멋진 야경, 패러글라이딩, 래프팅</label>
+	</div>
+	<div class="name"><a href="https://www.ywfmc.or.kr/"><h3>천문대 홈페이지 가기 -></h3></a></div><hr>
+<div class="name"><h3>2. 양평 중미산 천문대</h3></div>
+	<img src="./img/watching4.png" class="watching">
+	<img src="./img/watching3.png" class="watching">
+	<div class="check-point">
+		<h3>체크 포인트!</h3>
+		<input type="checkbox" id="h"><label for="h">중미산, 해발 437m</label><p>
+		<input type="checkbox" id="i"><label for="i">서울 송파에서 40분</label><p>
+		<input type="checkbox" id="j"><label for="j">사방이 산으로 둘러싸여 있어 밤하늘이 유독 어둡기 때문에 약 3000개의 별이 가득</label><p>
+		<input type="checkbox" id="k"><label for="k">'SBS 별에서 온 그대' 대표 촬영지</label><p>
+		<input type="checkbox" id="l"><label for="l">100% 사전 예약제</label><p>
+		<input type="checkbox" id="m"><label for="m">일반 프로그램 : 천문 영상 교육 30분, 천체 관측 50분</label><p>
+		<input type="checkbox" id="n"><label for="n">이용료 : 20000원</label><p>
+		<input type="checkbox" id="o"><label for="o">이용 시간 : 프로그램 별 상이 / 밤 프로그램의 경우, 20:00-21:30</label>
+	</div>
+	<div class="name"><a href="http://www.astrocafe.co.kr/main/main.php"><h3>천문대 홈페이지 가기 -></h3></a></div>
+</section>
+
+
+
+<aside>
+	<ul>
+		<a href="./three.html"><li>국내 천문대</li></a>
+		<li>국내 렌터카</li>
+		<li>해외 천문대</li>
+		<li>해외 렌터카</li>
+		<a href="./four.html"><li>금주의 추천!</li></a>		
+	</ul>
+</aside>
+
+
+
+<div class="clear"></div><!--float 속성 해제 -->
+<footer>
+	<div id="address">
+		출처 : NASA, 하나투어, google 이미지<br>
+		(주)별보러떠나요 | 대표 : 박별이 | 주소 : 경기도 부천시<br>
+		대표전화 : 0000-0000 | FAX | 000-0000-0000 | 이메일 : master@startuor.com
+	</div>
+	<div id="customer">
+		사업자등록번호 000-00-00000 | 관광사업자등록증번호 제0000-00000000호<br>
+		통신판매업신고번호 제0000-경기부천-0000
+	</div>
+</footer>
+
+
+
+</div>
+</body>
+</html>

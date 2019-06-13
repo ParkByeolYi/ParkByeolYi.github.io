@@ -1,0 +1,272 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>금주의 추천! : 별의 별 여행</title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.clear{
+			clear: both;
+		}
+		#page{
+			background-color: black;
+			padding: 30px 50px;
+		}
+		body{
+			background-image: url(./img/star.png);
+			background-repeat: repeat-y;
+			background-position: center top;
+		}
+		header{
+			width: 1000px;
+			height: 100px;
+			margin-top: 10px;
+			border: solid 2px #cccccc;
+			color: white;
+		}
+		li{
+			list-style-type: none;
+		}
+		a{
+			color: white;
+		}
+		a:hover{
+			color: #aaaaaa;
+		}
+		#logo{
+			margin: 20px;
+			float: left;
+		}
+		#top{
+			float: right;
+			margin: 30px 20px 0 0;
+		}
+		.dropdown{
+			display: inline-block;
+		}
+		.dropdownContents{
+			display: none;
+			font-size: small;
+			background-color: #000042;
+			color: white;
+			position: absolute; /*옆으로*/
+			width: 200px;
+		}
+		.dropdown:hover .dropdownContents{
+			display: block;
+		}
+		nav{
+			margin-top: 10px;
+			padding: 20px;
+			border: solid 1px #cccccc;
+			color: white;
+		}
+		nav li{
+			float: left;
+			margin: 20px 50px;
+		}
+		section{
+			float: left;
+			margin-top: 10px;
+			border: solid 1px #cccccc;
+			color: white;
+			background-color: #816600;
+		}
+		.name{
+			margin: 20px 10px;
+			text-align: center;
+		}
+		#mountain{
+			width: 402.5px;
+			margin: 10px;
+			border: solid 1px #cccccc;
+		}
+		#mountain:hover{
+			width: 402.5px;
+			margin: 10px;
+			border: solid 1px #cccccc;
+			content: url(./img/mountain11.png);
+		}	
+		#watching{
+			width: 402.5px;
+			margin: 0px 10px 10px 0px;
+			border: solid 1px #cccccc;
+		}	
+		.check-point{
+			width: 800px;
+			padding: 0px 10px;
+			text-align: center;
+		}
+		.check{
+			width: 300px;
+			background-color: #665C00;
+			border: solid 1px white;
+		}
+		hr{
+			margin: 20px 0px;
+			border: dashed 2px #cccccc;
+		}
+		aside {
+			float: left;
+			margin-left: 10px;
+			margin-top: 10px;
+			border: solid 1px #cccccc;
+			padding-left: 25px;
+			color: white;
+		}
+		aside li{
+			padding: 10px;
+		}
+		footer{
+			width: 1000px;
+			height: 200px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			border: solid 1px #cccccc;
+			color: white;
+		}
+		#address{
+			float: left;
+			margin: 30px 0 0 20px;
+		}
+		#customer{
+			float: left;
+			margin: 30px 0 0 20px;
+		}
+		#page{
+			width: 1000px;
+			margin: auto; /*마진을 자동으로 해준다*/
+			//border: solid 1px red;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="page">
+
+
+
+<header>
+	<div id="logo">
+		<a href="./index.html"><h3>★별보러 떠나요★</h3></a>
+	</div>
+	<div id="top">
+		<a href="./one.html">로그인</a> | 회원가입 | 마이페이지 | 고객센터
+</header>
+
+
+
+<div class="clear"></div><!--float 속성 해제 -->
+<nav>
+		<div class="dropdown">
+			<ul>
+			<h4>국내 섬 여행</h4>
+				<div class="dropdownContents">
+					<li>1004섬 신안</li>
+					<li>제주도</li>
+					<li>울릉도/독도</li>
+				</div>
+			</ul>
+		</div>
+		<div class="dropdown">
+			<ul> |</ul>
+		</div>
+
+		<div class="dropdown">
+			<ul>
+			<h4>해외 여행</h4>
+				<div class="dropdownContents">
+					<li>아시아</li>
+					<li>유럽</li>
+					<li>북아메리카</li>
+				</div>
+			</ul>
+		</div>
+		<div class="dropdown">
+			<ul> |</ul>
+		</div>
+
+		<div class="dropdown">
+			<ul>
+			<h4><a href="./two.html">오로라 여행</a></h4>
+				<div class="dropdownContents">
+					<li>아이슬란드</li>
+					<li>캐나다</li>
+				</div>
+			</ul>
+		</div>
+		<div class="dropdown">
+			<ul> |</ul>
+		</div>
+
+		<div class="dropdown">
+			<ul>
+			<h4><a href="https://www.nasa.gov/">우주정거장 여행</a></h4>
+				<div class="dropdownContents">
+					<li><a href="https://www.nasa.gov/">NASA 홈페이지</a></li>
+					<li>하루 숙박비</li>
+					<li>4,150만원</li>
+				</div>
+			</ul>
+		</div>
+</nav>
+
+
+
+<div class="clear"></div><!--float 속성 해제 -->
+<section>
+	<div class="name">
+		<h3>Q : 이번 주말에 어디로 놀러갈까?</h3><br>
+		<h2>A : 평창동 북악산 팔각정!</h2>
+		사진 위에 마우스를 올려보세요.
+	</div>
+	<img src="./img/mountain1.png" id="mountain">
+	<img src="./img/mountain3.png" id="watching">
+	<div class="check-point">
+		<h3>알고 떠나자!</h3>
+	<select name="알고 떠나자!">
+		<option><div class="check"><h4>서울 평창동에 있는 북악산</h4></div></option><p>
+		<option><div class="check"><h4>서울에 위치해 가보기 쉬운 곳</h4></div></option><p>
+		<option><div class="check"><h4>유성우나 별똥별을 보기 좋은 명당</h4></div></option><p>
+		<option><div class="check"><h4>서울 도심임에도 맑은 공기와 광원보다 높은 곳에 위치</h4></div></option><p>
+		<option><div class="check"><h4>도심 속에서 빛나는 별</h4></div></option><p>
+		<option><div class="check"><h4>위치 : 서울특별시 종로구 평창동 산6-17</h4></div></option><p>
+	</select>
+	</div>
+	<div class="name"><a href="https://bukak-palgakjeong.tistory.com/"><h3>북악팔각정 홈페이지 가기 -></h3></a></div>
+</section>
+
+
+
+<aside>
+	<ul>
+		<a href="./three.html"><li>국내 천문대</li></a>
+		<li>국내 렌터카</li>
+		<li>해외 천문대</li>
+		<li>해외 렌터카</li>
+		<a href="./four.html"><li>금주의 추천!</li></a>		
+	</ul>
+</aside>
+
+
+
+<div class="clear"></div><!--float 속성 해제 -->
+<footer>
+	<div id="address">
+		출처 : NASA, 하나투어, google 이미지<br>
+		(주)별보러떠나요 | 대표 : 박별이 | 주소 : 경기도 부천시<br>
+		대표전화 : 0000-0000 | FAX | 000-0000-0000 | 이메일 : master@startuor.com
+	</div>
+	<div id="customer">
+		사업자등록번호 000-00-00000 | 관광사업자등록증번호 제0000-00000000호<br>
+		통신판매업신고번호 제0000-경기부천-0000
+	</div>
+</footer>
+
+
+
+</div>
+</body>
+</html>
